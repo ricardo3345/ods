@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+}
+
+.body {
+    background-color: lightblue;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.header {
+    background-color: #012B56;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 154px;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    height: 150px;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: #012B56;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 1000px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.form {
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px #012B56;
+}
+
+.formcenter {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: #012B56;
+    color: lightblue;
+    border-color: #012B56;
+    margin: 0;
+}
+
+.input {
+    width: 250px;
+    height: 35px;
+    padding-left: 20px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-color: #012B56;
+}
+
+.menu {
+    width: 100px;
+    padding: 5px;
+    right: 0px;
+    box-shadow: 3px 3px 0px 3px#012B56;
+}
+
+.form1 {
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px #012B56;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+}
+
+.formLogin {
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0 0 30px #21266b;
+    border-radius: 15px;
+
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+textarea {
+    height: 150px;
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    margin-right: 20px;
+}
+
+.Temas {
+    width: 20px;
+    margin-bottom: 15px;
+}
+
+.formCriarPost {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+textarea {
+    height: 150px;
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.Temas {
+    /*campo de temas no form Criar Post*/
+    width: 20px;
+    margin-bottom: 15px;
+}
+
+.postVer {
+    background-color: #fff;
+    border: 2px solid #012B56;
+    border-radius: 10px;
+    box-shadow: #012B56;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 450px;
+    margin: 10px;
+    border-bottom: 3px solid black;
+}
+
+.postVer p[name='1st']{
+    border-bottom: 3px solid black;
+    padding-bottom: 3px;
+    font-size: larger;
+}
+
+.buttonLogout {
+    background-color: #012B56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 10px;
+    margin-left: 1200px;
+
+}
+.divButtons{
+    margin-top: 155px;
+}
+
+.buttonHeader1 {
+    background-color: #012B56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 10px;
+    margin-left: 30px;
+}
+
+.buttonHeader2 {
+    background-color: #012B56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 10px;
+}
+
+.bodyutilizador {
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.perfil {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-top: 10px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.areaPosts{
+    margin: 50px;
+    display: grid;
+    margin-left: 490px;
+    margin-top: 20px;
+}
+.inputLogin{
+    width: 280px;
+    border-radius: 7px;
+    color: #0056b3;
+}
+.butaoPerfilVoltar{
+    background-color: #012B56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 10px;   
+}
+.instagram{
+    font-size: 50px;
+    color:#012B56;
+}
+.twitter{
+    font-size: 50px;
+    color:#012B56;
+}
+.facebook{
+    font-size: 50px;
+    color:#012B56;
+}
+

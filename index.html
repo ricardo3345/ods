@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>OUR DISCUSSION SPOT</title>
+    <link rel="stylesheet" href="ods.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <img class="logo" src="img/ods-high-resolution-logo-white-on-transparent-background.png" alt="Logo Site">
+        <h1>OUR DISCUSSION SPOT</h1>
+    </header>
+
+    <div class="centered">
+        <div class="formcenter">
+            <form class="formLogin" id="form" action="conexaoLogin.php" method="post">
+                <h2>Login</h2>
+
+                <div>
+                    <input class="inputLogin" type="email" id="email" name="email" placeholder="E-Mail" required> <br>
+                </div>
+
+                <div>
+                    <input class="inputLogin" type="password" id="password" name="password" placeholder="Password" required> <br>
+                </div>
+                
+                <button class="button" type="submit" onclick="loginAutenticacao()" >Login</button>
+                <p>Não tem conta? <a href="paginaRegistar.php">Registar</a></p>
+            </form>
+        </div>
+        <footer class="footer">
+            Our Discussion Spot &copy; | Ricardo Ferreira | 2023.
+        </footer>
+    </div>
+
+    <footer class="footer">
+        Our Discussion Spot © | Ricardo Ferreira | 2023.
+    </footer>
+
+    <!--<script src="loginAutenticacao.js"></script>-->
+
+</html>

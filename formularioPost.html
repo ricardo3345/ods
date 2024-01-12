@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>OUR DISCUSSION SPOT</title>
+        <link rel="stylesheet" href="ods.css">
+    </head>
+    
+    <body class="body">
+        <header class="header">
+            <img class="logo" src="img/ods-high-resolution-logo-white-on-transparent-background.png" alt="Logo Site">
+            <h1>OUR DISCUSSION SPOT</h1>
+        </header>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+}
+
+.formCriarPost {   /*formulario Criar Post*/
+    max-width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 170px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 20px;
+    height: 30px;
+    margin-bottom: -10px;
+}
+
+textarea {
+    height: 120px;
+    margin-right: 20px;
+    width: 500px;
+}
+
+.buttons {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.buttons:hover {
+    background-color: #0056b3;
+    margin-right: 20px;
+}
+.Temas{             /*campo de temas no form Criar Post*/
+    width: 20px;
+    margin-bottom: 15px;
+}</style>
+<body>
+    
+    <form class="formCriarPost" action="conexaoPost.php" method="post">
+        <h2>Cria o Teu Post!</h2>
+        <div class="form-group">
+            <label for="titulo">Titulo:</label>
+            <input type="text" id="titulo" name="titulo" required>
+        </div>
+
+        <div class="Temas">
+            <label for="tema">Tema:</label>
+            <select id="tema" name="tema" required>
+                <option value="">Selecione um tema</option>
+                <option value="Tema1">Desporto</option>
+                <option value="Tema2">Tecnologia</option>
+                <option value="Tema3">Video Jogos</option>
+                <option value="Tema4">Culinária</option>
+                <option value="Tema5">Música</option>
+                <option value="Tema6">Viagens</option>
+                <option value="Tema7">Documentários, Filmes, Séries.</option>
+                <option value="Tema8">Literatura</option>
+                <option value="Tema9">Meio Ambiente</option>
+                <option value="Tema10">Bem Estar</option>
+                <option value="Tema11">Politica</option>
+                <option value="Tema12">Outro</option>
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="corpo">Corpo do Post:</label>
+            <textarea id="corpo" name="corpo" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <input class="buttons" type="submit" value="Criar Post">
+            <input class="buttons" type="button" value="Voltar atrás" onclick="window.location.href='paginaInicial.php'";
+        </div>
+    </form>
+</body>
+</html>
