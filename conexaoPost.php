@@ -19,6 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tema = $_POST['tema'];
     $corpoPost = $_POST['corpo'];
     $temaPost;
+    date_default_timezone_set("Europe/Lisbon");
+    $data = date('d-m-Y H:i');
 
     if ($tema == "Tema1") {
         $temaPost = "Desporto";
@@ -46,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $temaPost = "Outro";
     }
 
-    $sql = "INSERT INTO post (Titulo_post, Nome_Autor, Assunto, Texto_Post) VALUES ('$titulo', '$autor','$temaPost','$corpoPost')";
+    $sql = "INSERT INTO post (Titulo_post, Nome_Autor, Assunto, Texto_Post, Data) VALUES ('$titulo', '$autor','$temaPost','$corpoPost','$data')";
     if ($conn->query($sql) == true) {
         header("Location: paginaInicial.php");
         exit;

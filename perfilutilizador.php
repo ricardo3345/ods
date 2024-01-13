@@ -13,7 +13,8 @@
         <img class="logo" src="img/ods-high-resolution-logo-white-on-transparent-background.png" alt="Logo Site">
         <h1>OUR DISCUSSION SPOT</h1>
     </header>
-
+        <a href="paginaInicial.php" class="botaoPerfilVoltar">Voltar à Página Inicial </a>
+        <a href="editarPerfilUtilizador.php" class="botaoPerfilVoltar">Editar Perfil</a>
 
     <?php
         require 'conexao.php';
@@ -34,15 +35,13 @@
         echo "<h1>O Teu Perfil!</h1>";
         echo "<p><b>Nome: </b>" . $nome . "</p>";
         echo "<p><b>Cidade: </b>" . $cidade . "</p>";
-        echo "<p><b>Descrição </b>" . $descricao . "</p>";
-        echo "</div>";
+        echo "<p><b>Descrição </b>" . $descricao . "</p>";        
     ?>
 
-        <a href="paginaInicial.php" class="butaoPerfilVoltar">Voltar à Página Inicial </a>
-        <a href="editarPerfilUtilizador.php" class="butaoPerfilVoltar">Editar Perfil</a>
-        
+        <a href="paginaInicial.php" class="BotaoPerfil">Voltar à Página Inicial </a>
+        </div>
     <footer class="footer">
-        Our Discussion Spot © | Ricardo Ferreira | 2023.
+        Our Discussion Spot © | Ricardo Ferreira | 2023
     </footer>
 
 </body>

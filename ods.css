@@ -10,6 +10,12 @@
     font-weight: bold;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+}
+
 .header {
     background-color: #012B56;
     color: #fff;
@@ -17,13 +23,13 @@
     display: flex;
     position: absolute;
     width: 100%;
-    height: 154px;
+    height: 115px;
     top: 0;
     left: 0;
 }
 
 .logo {
-    height: 150px;
+    height: 100px;
     margin-right: 20px;
 }
 
@@ -95,12 +101,6 @@
     align-items: center;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin-right: 20px;
-}
-
 .formLogin {
     width: 350px;
     height: 300px;
@@ -127,7 +127,7 @@ label {
     margin-right: 20px;
 }
 
-input[type="text"],
+/*input[type="text"],
 textarea {
     width: 100%;
     padding: 10px;
@@ -135,12 +135,12 @@ textarea {
     border-radius: 5px;
     font-size: 16px;
     margin-right: 20px;
-}
+}*/
 
-textarea {
+/*textarea {
     height: 150px;
     margin-right: 20px;
-}
+}*/
 
 input[type="submit"] {
     background-color: #007bff;
@@ -183,7 +183,7 @@ label {
     margin-right: 20px;
 }
 
-input[type="text"],
+/*input[type="text"],
 textarea {
     width: 100%;
     padding: 10px;
@@ -191,12 +191,12 @@ textarea {
     border-radius: 5px;
     font-size: 16px;
     margin-right: 20px;
-}
+}*/
 
-textarea {
+/*textarea {
     height: 150px;
     margin-right: 20px;
-}
+}*/
 
 input[type="submit"] {
     background-color: #007bff;
@@ -217,19 +217,30 @@ input[type="submit"] {
 .postVer {
     background-color: #fff;
     border: 2px solid #012B56;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: #012B56;
     padding-left: 10px;
     padding-right: 10px;
-    width: 450px;
+    width: 520px;
     margin: 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #012B56;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .postVer p[name='1st']{
     border-bottom: 3px solid black;
     padding-bottom: 3px;
     font-size: larger;
+}
+
+.postVer p[name='2nd']{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 20px;
+}
+.postVer p[name='3rd']{
+    font-size: 15px;
 }
 
 .buttonLogout {
@@ -244,7 +255,7 @@ input[type="submit"] {
 
 }
 .divButtons{
-    margin-top: 155px;
+    margin-top: 119px;
 }
 
 .buttonHeader1 {
@@ -305,15 +316,6 @@ textarea {
     border-radius: 7px;
     color: #0056b3;
 }
-.butaoPerfilVoltar{
-    background-color: #012B56;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    width: 10px;   
-}
 .instagram{
     font-size: 50px;
     color:#012B56;
@@ -326,4 +328,49 @@ textarea {
     font-size: 50px;
     color:#012B56;
 }
+.botaoComentar{
+    background-color: #012B56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 5px;
+}.formRegistarConta{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0 0 30px #21266b;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 190px;
+
+}
+.inputRegistar{
+    width: 280px;
+    border-radius: 7px;
+    color: #0056b3;
+}
+.botaoRegistar{
+    background-color: #012B56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: fit-content;
+    margin-bottom: 5px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.BotaoPerfil{
+    background-color: #012B56;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 

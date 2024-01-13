@@ -41,7 +41,7 @@
         <a href="paginaInicial.php" class="butaoPerfilVoltar">Confirmar Edição</a>
 
     <footer class="footer">
-        Our Discussion Spot © | Ricardo Ferreira | 2023.
+        Our Discussion Spot © | Ricardo Ferreira | 2023
     </footer>
 
 </body>
